@@ -3,7 +3,7 @@ About r-ucscxenatools
 
 Home: https://docs.ropensci.org/UCSCXenaTools/, https://github.com/ropensci/UCSCXenaTools
 
-Package license: GPL-2.0-or-later
+Package license: GPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ucscxenatools-feedstock/blob/master/LICENSE.txt)
 
