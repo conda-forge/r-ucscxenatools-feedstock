@@ -1,4 +1,4 @@
-{% set version = "1.4.7" %}
+{% set version = "1.4.8" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/UCSCXenaTools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/UCSCXenaTools/UCSCXenaTools_{{ version }}.tar.gz
-  sha256: ef8b22db3a7b1d3266f64d3cb0e75b50433b9e1986cb97ab1b0f2cbbeb4e7de8
+  sha256: 473507e60e2706c349eb20f925d60c1472feb1052f4804cd3c86472d8dbe1970
 
 build:
   merge_build_host: true  # [win]
