@@ -1,11 +1,11 @@
-About r-ucscxenatools
-=====================
+About r-ucscxenatools-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ucscxenatools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://docs.ropensci.org/UCSCXenaTools/, https://github.com/ropensci/UCSCXenaTools
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ucscxenatools-feedstock/blob/main/LICENSE.txt)
 
 Summary: Download and explore datasets from UCSC Xena data hubs, which are a collection of UCSC-hosted public databases such as TCGA, ICGC, TARGET, GTEx, CCLE, and others. Databases are normalized so they can be combined, linked, filtered, explored and downloaded.
 
