@@ -1,4 +1,4 @@
-{% set version = "1.4.8" %}
+{% set version = "1.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/UCSCXenaTools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/UCSCXenaTools/UCSCXenaTools_{{ version }}.tar.gz
-  sha256: 473507e60e2706c349eb20f925d60c1472feb1052f4804cd3c86472d8dbe1970
+  sha256: 0e126bd8c4a8148f4d4d5c9a91f51e74f0cd926bbad94ac9c121ab27b757d5be
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
